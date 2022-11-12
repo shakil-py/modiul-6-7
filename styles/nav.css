@@ -1,0 +1,33 @@
+nav li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 10px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li:hover {
+    background-color: grey;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+    padding: 2px 23px;
+}
+
+.dorpdown {
+    display: none; 
+}
+.dorpdown li{
+    background-color: aqua;
+}
